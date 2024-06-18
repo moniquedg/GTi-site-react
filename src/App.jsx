@@ -1,27 +1,29 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
-import Navbar from './components/Navbar'; // Importar o componente Navbar
+import Footer from './components/Footer';
 
-const App = () => {
+function App() {
   return (
     <Router>
-      <div>
-        <Navbar /> {/* Usar o componente Navbar */}
-        <div className="container mx-auto max-w-screen-xl p-4">
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
           </Routes>
-        </div>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
-};
+}
 
 export default App;

@@ -11,16 +11,16 @@ const Navbar = () => {
         </div>
         <ul className="flex space-x-4">
           <li>
-            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/" className="text-lg font-normal hover:font-semibold">Home</Link>
           </li>
           <li>
-            <Link to="/about" className="hover:underline">Sobre Nós</Link>
+            <Link to="/about" className="text-lg font-normal hover:font-semibold">Sobre Nós</Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:underline">Contato</Link>
+            <Link to="/contact" className="text-lg font-normal hover:font-semibold">Contato</Link>
           </li>
           <li>
-            <Link to="/services" className="hover:underline">Serviços</Link>
+            <Link to="/services" className="text-lg font-normal hover:font-semibold">Serviços</Link>
           </li>
         </ul>
       </div>

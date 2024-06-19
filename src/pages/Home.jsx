@@ -1,10 +1,16 @@
 import React from 'react';
+import Slider from '../components/Slider';
+import HomeTitle from '../components/HomeTitle';
+import HorizonNumbers from '../components/HorizonNumbers';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <p>Bem-vindo à página inicial!</p>
+      <Slider />
+      <HomeTitle />
+      <HorizonNumbers />
+      <Testimonials />
     </div>
   );
 };

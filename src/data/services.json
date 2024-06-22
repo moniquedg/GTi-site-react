@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Projeto e Gerenciamento de Obras",
+      "description": "Oferecemos soluções completas em planejamento e execução de projetos, garantindo que sua obra seja entregue com a máxima qualidade."
+    },
+    {
+      "id": 2,
+      "title": "Consultoria em Engenharia Civil",
+      "description": "Fornecemos consultoria especializada para otimizar seu projeto, assegurando eficiência, sustentabilidade e conformidade com as normas técnicas."
+    },
+    {
+      "id": 3,
+      "title": "Gestão de Obras",
+      "description": "Serviços completos de manutenção e reforma para preservar, atualizar e melhorar edificações, assegurando segurança e funcionalidade."
+    }
+  ]
+  

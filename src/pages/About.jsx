@@ -1,6 +1,6 @@
 import React from 'react';
 import servicesData from '../data/services.json';
-import headerImage from '../assets/header.jpg';
+import headerImage from '../assets/header-about.jpg';
 
 const About = () => {
   return (

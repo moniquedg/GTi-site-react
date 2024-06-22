@@ -7,10 +7,12 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const clientName = "Monique";
+
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        <Navbar />
+        <Navbar clientName={clientName} />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
